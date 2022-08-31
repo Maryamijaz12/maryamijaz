@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <style>
+            .header-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-section > div {
+    width: calc(100% / 3);
+}
+
+@media (max-width: 768px) {
+    .header-section > div {
+        width: 100%;
+        text-align: center;
+    }
+}
+        </style>
+    </head>
+    <body>
+    <div class="header-section">
+        <div class="header-section-1">
+            <div class="site-logo">
+                <a href="URL TO YOUR WEBSITE" title="YOUR SITE NAME" rel="home">
+                    <img class="header-image" src="URL TO LOGO IMAGE" alt="YOUR SITE NAME" title="YOUR SITE NAME">
+                </a>
+            </div>
+        </div>
+    
+        <div class="header-section-2">
+            Header center content
+        </div>
+    
+        <div class="header-section-3">
+            Header right content
+        </div>
+    </div>
+</body>
+</html>
