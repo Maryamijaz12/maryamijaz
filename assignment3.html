@@ -2,12 +2,51 @@
     <head>
     <title>css sheet</title>
     <style>
+        header{
+            background-color: grey;
+            width: 100%;
+            padding: 20px;
+        }
+        .second{
+background-color: #ccc;
+display: flex;
+text-align: center;
+        }
+        .first{
+            background-color: #f1f1f1;
+            padding: 10px;
+            display: flex;
+            text-align: center;
+        }
+        nav ul li{
+list-style: none;
+padding: 30px;
+display: inline-block;
+        }
+
+        
 
     </style>
 </head>
 <body>
     <header>
+        <div class="image">
         <img src="download.jpg">
+    </div>
+    <div class="first">
+        <h3>Web designing and development</h3>
+    </div>
+    <div>
+        <nav >
+            <ul class="second">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Gallery</li>
+                <li>Downloads</li>
+            </ul>
+        </nav>
+    </div>
     </header>
 </body>
 </html>
