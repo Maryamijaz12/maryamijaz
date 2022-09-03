@@ -3,12 +3,16 @@
         <title>form
         </title>
         <style>
-
+.main{
+    background-color: antiquewhite;
+    text-align: center;
+}
         </style>
     </head>
     <body>
+        <div class="main">
         <form>
-        <h1>Registration form</h1>
+        <h2>Registration form</h2>
         <input type="text" placeholder="First name"><br><br>
         <input type="text" placeholder="Last name"><br><br>
         <input type="number" placeholder="Mobile number"><br><br>
@@ -18,7 +22,37 @@
         <input type="radio" name="gender" value="male" checked>Male
         <input type="radio" name="gender" value="female" checked>Female</h4>
         <h2>Educational Qualification</h2>
+        <select name="area">
+            <option value="">Digree</option>
+            <option value="">Intermediate</option>
+            <option value="">Bachelor</option>
+            <option value="">Masters</option>
+            <option value="">Other</option>
 
+        </select>
+        <select name="area">
+            <option value="">University</option>
+            <option value="">Poonch</option>
+            <option value="">Must</option>
+            <option value="">AJK</option>
+            <option value="">Other</option>
+
+        </select>
+        <h3>choose your interest</h3>
+        <input type="checkbox" name="books" value="">Books
+        <input type="checkbox" name="coding" value="">coding
+        <input type="checkbox" name="computer" value="">Computer
+<h3>Comments</h3>
+<textarea name="" cols="40" rows="5"></textarea>
+<br><br>
+<label for="">Choose</label>
+<input type="file" name="photo">
+<br>
+<br>
+<input type="submit" value="Send Data" name="submit">
+<input type="reset" value="clear Data" name="reset">
+<h5>@alright</h5>
     </form>
+</div>
     </body>
 </html>
